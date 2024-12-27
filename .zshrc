@@ -111,9 +111,9 @@ alias ls="eza" # ls
 alias ll='eza -lbF --git' # list, size, type, git
 alias llm='eza -lbGd --git --sort=modified' # long list, modified date sort
 alias la='eza -lbhHigUmuSa --time-style=long-iso --git --color-scale' # all list
-alias lx='ezaa -lbhHigUmuSa@ --time-style=long-iso --git --color-scale' # all + extended list
+alias lx='eza -lbhHigUmuSa@ --time-style=long-iso --git --color-scale' # all + extended list
 alias lS='eza -1' # one column, just names
-alias lt='exa --tree --level=2' # tree
+alias lt='eza --tree --level=2' # tree
 alias notes='cd /Users/mevans/"OneDrive - csulb"/Notes && pwd'
 alias cat='bat'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
